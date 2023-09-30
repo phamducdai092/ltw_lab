@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* common */
+
+.dark {
+    background-color: #333333;
+}
+
+.center_text {
+    text-align: center;
+}
+
+
+
+/* ================ ID ================ */
+#section_normal_1 {
+    height: 80px;
+    border-bottom: 4px solid #DEDEDE;
+}
+
+#section_normal_1 .alpha {
+    width: auto;
+    float: left;
+    padding-top: 18px;
+}
+
+#section_normal_1 .omega {
+    width: auto;
+    float: right;
+    padding-top: 18px;
+}
+
+#section_normal_1 .omega .htext_style {
+    font-size: 1.4rem;
+    width: auto;
+    float: left;
+    color: #acacac;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#section_normal_1 .omega .social_button {
+    float: right;
+    margin-right: 8px;
+}
+
+#section_normal_4_2  {
+    height: 670px;
+}
+
+#section_normal_4_2 .sixteen {
+    display: flex;
+}
+
+#section_normal_4_2 .sixteen .alpha {
+    float: left;
+    margin: 100px 0;
+    flex: 1;
+}
+
+#section_normal_4_2 .sixteen .alpha .img_style {
+    width: 100%;
+}
+
+#section_normal_4_2 .omega {
+    width: auto;
+    color: #fff;
+    padding: 100px 20px;
+    flex: 1;    
+}
+
+#section_normal_4_2 .omega .blue_text {
+    font-size: 2.4rem;
+    color: #2DC0E8;
+    font-weight: 500;
+}
+
+#section_normal_4_2 .omega .big_title {
+    font-size: 6rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#section_normal_4_2 .omega .normal_text {
+    font-size: 2rem;
+    color: #5F5F5F;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+#section_normal_4_2 .btn_normal {
+    display: inline-block;
+    color: #fff;
+    font-size: 2rem;  
+    background: #2dc0e8;
+    padding: 12px 24px;
+    margin-top: 12px;
+    border-radius: 4px;
+} 
+
+#section_normal_6 {
+    background-color: #eee;
+}
+
+#section_normal_6 .container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#section_normal_6 .L1_style {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #747474;
+}
+
+#section_normal_6 .L2_style {
+    margin: 12px 0 30px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #bcbcbc;
+    letter-spacing: 0.1em;
+}
+
+#section_normal_6 .stbox {
+    /* float: left;  */
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#section_normal_6 .box_1,
+#section_normal_6 .box_2 {
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid #DEDEDE;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#section_normal_6 .b_style {
+    background: #f5f5f5;
+    padding: 22px 18px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+#section_normal_6 .logo_style {
+    border-radius: 50%;
+}
+
+#section_normal_6 .txt_style {
+    font-size: 1.6rem;
+    text-align: justify;
+    width: 400px;
+    background-color: #fff;
+    padding: 30px 16px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#section_normal_6 .txt_style .txt {
+    display: block;
+}
+
+
+#section_agency_5 .container {
+    padding: 40px 0;
+}
+
+#section_agency_5 .f1_style {
+    color: #5b9a68;
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+#section_agency_5 .f2_style {
+    color: #b7b7b7;
+    font-size: 1.6rem;
+    display: inline-block;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+#section_agency_5 .second_link a{
+    display: inline-block;
+    color: #5b9a68;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 16px 28px;
+    border: 3px solid #5b9a68;
+    border-radius: 6px;
+    margin-bottom: 28px;
+}
+
+#section_agency_5 .rights_st {
+    font-size: 1.4rem;
+    color: #b7b7b7;
+    margin-bottom: 8px;
+}
+
+#section_agency_5 .pix_text .pixfort_st {
+    color: #5b9a68;
+    font-size: 1.6rem;
+}
+
+#section_agency_5 .pix_inline_block {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+#section_agency_5 .pix_inline_block .social_button {
+    margin: 24px 8px 12px;
+}
+
+/* ================ Class ================= */
+
+.container {
+    width: 1180px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
