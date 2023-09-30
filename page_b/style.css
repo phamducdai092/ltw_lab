@@ -3,3 +3,36 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* common */
+
+.container {
+    width: 1180px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.light_gray_bg {
+    background-color: #f3f3f3;
+}
+
+/* ================ Header ============== */
+
+#section_text_2 .omega {
+    float: right;
+    width: auto;
+}
+
+#section_text_2 .alpha {
+    float: left;
+    width: auto;
+}
+
+.sr-only {
+    display: none;
+}
