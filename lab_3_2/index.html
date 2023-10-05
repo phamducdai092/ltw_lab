@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>WEB Program lab 3.2</title>
+
+        <!-- css -->
+        <link rel="stylesheet" href="./style.css" />
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="contact">
+                <h2 class="title">Contact Us</h2>
+                <div class="content">
+                    <div class="row">
+                        <div class="col">
+                            <span>FULL NAME</span>
+                            <input
+                                class="input"
+                                type="text"
+                                placeholder="Enter Your Name"
+                            />
+                        </div>
+                    </div>
+                    <div class="row email-row">
+                        <div class="col">
+                            <span>EMAIL</span>
+                            <input
+                                class="input"
+                                type="email"
+                                placeholder="Enter Your Email"
+                            />
+                        </div>
+                        <div class="col phone-col">
+                            <span>PHONE</span>
+                            <input
+                                class="input"
+                                type="number"
+                                placeholder="Enter Number Phone"
+                            />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <span>NEEDED SERVICE</span>
+                            <select name="service" id="service">
+                                <option selected disabled>Please choose</option>
+                                <option value="value">Value</option>
+                                <option value="value">Value</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <span>MESSAGE</span>
+                            <textarea
+                                name="message"
+                                class="input mes-input"
+                                placeholder="Your message here..."
+                            ></textarea>
+                            <!-- <span class="mes">Your message here...</span> -->
+                        </div>
+                    </div>
+                    <button class="row btn-row">
+                        <a href="#!" class="btn-link"><span>Submit</span></a>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
