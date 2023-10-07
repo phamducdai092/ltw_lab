@@ -9,6 +9,9 @@ html {
     font-size: 62.5%;
 }
 
+:root {
+    --main-color: #f77825;
+}
 
 /* common */
 
@@ -23,8 +26,17 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 .light_gray_bg {
     background-color: #f3f3f3;
+}
+
+.link_3_btn {
+    padding: 16px 42px;
+    background: var(--main-color);
 }
 
 /* ================ Header ============== */
@@ -72,19 +84,80 @@ a {
 
 .navbar {
     display: flex;
-    background: #ccc;
+    /* background: ; */
     width: 100%;
 }
 
 .containerss {
-    width: 50%;
+    width: 100%;
+}
+
+#navbar-collapse-02 {
+    background-color: #fff;
+    width: 100%;
 }
 
 #navbar-collapse-02 .nav {
     display: flex;
     gap: 32px;
+    line-height: 42px;
 }
 
-#navbar-collapse-02 .nav li {
-    font-size: 1.8rem;
+#navbar-collapse-02 .nav li a {
+    font-size: 2rem;
+    color: #666;
+}
+
+.section_slider > .container{
+    background-color: #ccc;
+}
+
+.carousel-inner {
+    height: 500px;
+    overflow: hidden;
+}
+
+
+.gym_life {
+    margin: 42px 0 ;
+}
+
+.top_padding {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.part_st .logo_style {
+    border-radius: 50%;
+}
+
+.column .part_st{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.part_st .text_gym_style {
+    width: 50%;
+}
+
+.text_gym_style .gym_st {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 16px 0 24px;
+}
+
+.text_gym_style .gym_text {
+    color: #ccc;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+}
+
+.link_3_btn.editContent a {
+    font-size: 1.6rem;
+    color: #fff;
 }
