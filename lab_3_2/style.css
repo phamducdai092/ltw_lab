@@ -29,8 +29,8 @@ textarea {
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 50vw;
-    height: 80vh;
+    width: 40%;
+    height: 540px;
     background: #ccc;
     padding-top: 12px;
     display: flex;
@@ -39,6 +39,7 @@ textarea {
 
 .contact {
     width: 90%;
+    height: 90%;
     display: inline-block;
     height: calc(100% - 12px);
     background-color: #fff;
