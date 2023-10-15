@@ -39,14 +39,6 @@ input {
     color: var(--light-yellow-color);
 }
 
-.ten {
-    flex: 10;
-}
-
-.six {
-    flex: 6;
-}
-
 /* =============== Navbar header ============= */
 
 #section_header_2_dark {
@@ -142,6 +134,11 @@ input {
     border-radius: 8px;
 }
 
+.substyle.pix_builder_bg {
+    display: flex;
+    flex-direction: column;
+}
+
 #contact_form button,
 #contact_form input {
     font-size: 1.8rem;
@@ -171,6 +168,24 @@ input {
     color: #eee;
 }
 
+.join_us_section  {
+    margin-top: 32px;
+}
+
+.join_us_section .ten.columns.alpha {
+    width: 60%;
+}
+
+.join_us_section .six.columns.omega {
+    width: 30%;
+    background: #ebeaea;
+}
+
+.join_us_section .title_st {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
 .join_us_section .sixteen {
     display: flex;
 }
@@ -179,11 +194,70 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 12px;
 }
 
 .join_us_section .psingle_item {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
+
+.join_us_section .psingle_item .icon_st {
+    margin-right: 24px;
+}
+
+.join_us_section .psingle_item .text_st {
+    width: 365px;
+    font-size: 1.6rem;
+    margin-left: auto;
+}
+
+.join_us_section .psingle_item .text_st .title_st {
+    margin-bottom: 16px;
+}
+
+.join_us_section .psingle_item .text_st .subject_st {
+    color: #ccc;
+}
+
+.join_us_section .substyle {
+    padding: 16px;
+}
+
+.join_us_section .title-style .pix_text {
+    display: inline-block;
+    font-size: 2.4rem;
+    margin: 16px 0;
+}
+
+.join_us_section .substyle .text-style {
+    font-size: 1.4rem;
+    color: #bbbaba;
+    margin-bottom: 12px;
+}
+
+#contact_form .pix_text {
+    width: 100%;
+    margin-bottom: 12px;
+    font-size: 1.4rem;
+}
+
+#countries {
+    padding: 12px 8px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+#contact_form .send_btn {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#contact_form .send_btn button {
+    margin-top: 24px;
+    margin-left: 0;
+    background: #7cc576;
 }
