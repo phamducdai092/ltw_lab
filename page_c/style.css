@@ -35,6 +35,11 @@ input {
     border: none;
 }
 
+button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
 .text_span {
     color: var(--light-yellow-color);
 }
@@ -140,6 +145,8 @@ input {
 }
 
 #contact_form button,
+#contact_form_sub button,
+#contact_form_sub input,
 #contact_form input {
     font-size: 1.8rem;
     padding: 12px;
@@ -155,11 +162,6 @@ input {
     color: #fff;
     margin-left: 16px;
     transition: all 0.3s ease;
-}
-
-#contact_form button:hover {
-    cursor: pointer;
-    opacity: 0.9;
 }
 
 .sixteen .note_st {
@@ -237,7 +239,7 @@ input {
     margin-bottom: 12px;
 }
 
-#contact_form .pix_text {
+#contact_form_sub .pix_text {
     width: 100%;
     margin-bottom: 12px;
     font-size: 1.4rem;
@@ -250,14 +252,33 @@ input {
     border-radius: 8px;
 }
 
-#contact_form .send_btn {
+#contact_form_sub .send_btn {
     display: flex;
     justify-content: flex-start;
     width: 100%;
 }
 
-#contact_form .send_btn button {
+#contact_form_sub .send_btn button {
+    color: #fff;
     margin-top: 24px;
     margin-left: 0;
     background: #7cc576;
+}
+
+.foot_st {
+    height: 70px;
+    background: #f6f6f6;
+}
+
+.foot_st .bg_foot {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.4rem;
+    color: #b9b9b9;
+}
+
+.foot_st .bg_foot .pixfort_st {
+    color: #674397;
 }
